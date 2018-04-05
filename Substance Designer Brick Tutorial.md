@@ -59,6 +59,8 @@ Here's what the final product will look like, with bump, normal, and glossiness 
 
    ![1522949150987](1522949150987.png)
 
+   ​
+
 
 
 6. Search for "Anisotropic Blur" NOT Grayscale, since we're using color
@@ -69,6 +71,8 @@ Here's what the final product will look like, with bump, normal, and glossiness 
    - Connect the node to the *Gradient Map* node
 
    ![1522949357912](1522949357912.png)
+
+   ​
 
 
 
@@ -84,7 +88,9 @@ Here's what the final product will look like, with bump, normal, and glossiness 
 
    ![1522949833248](1522949833248.png)
 
-![1522949802200](1522949802200.png)		
+   ![1522955592036](1522955651369.png)
+
+   ​
 
 8. Search for "Gradient Map", or select the other Gradient map we created earlier and duplicate it with Ctrl-D
 
@@ -97,9 +103,10 @@ Here's what the final product will look like, with bump, normal, and glossiness 
        - \#ff848484
      - **Position**: 1.000
        - \#ffffffff
+
    - Connect the node to the *Directional Noise 2* node
 
-   ![1522950133835](1522950133835.png)
+     ![1522950133835](1522950133835.png)
 
    ​
 
@@ -112,18 +119,19 @@ Here's what the final product will look like, with bump, normal, and glossiness 
 
    ![1522950223606](1522950223606.png)
 
+   ​
+
 
 
 10. Search for "Gradient Map"
 
-    - Do not change the gradient, to keep it from black to white
+   - Do not change the gradient, to keep it from black to white
+   - Set the following parameters:
+     - **Color Mode**: Color
+   - Connect the node to the *Blend* node
 
 
-    - Set the following parameters:
-      - **Color Mode**: Color
-    - Connect the node to the *Blend* node
-
-    ![1522950588468](1522950588468.png)
+   ![1522950588468](1522950588468.png)
 
 
 
@@ -138,7 +146,8 @@ Here's what the final product will look like, with bump, normal, and glossiness 
 
     ![1522950687252](1522950687252.png)
 
-    ![1522952124564](1522952124564.png)
+    ![1522955813573](1522955813573.png)
+
 
 
 
@@ -150,6 +159,8 @@ Here's what the final product will look like, with bump, normal, and glossiness 
 
     ![1522950858352](1522950858352.png)
 
+    ​
+
 
 
 13. Search for "Moisture Noise", and drag it underneath the Invert Grayscale node
@@ -159,6 +170,8 @@ Here's what the final product will look like, with bump, normal, and glossiness 
       - **Disorder**: 1
 
     ![1522951022192](1522951022192.png)
+
+    ​
 
 
 
@@ -217,6 +230,8 @@ Here's what the final product will look like, with bump, normal, and glossiness 
 
     ![1522952497580](1522952497580.png)
 
+    ​
+
 ### Brick Glossiness
 
 18. Search for "Gradient Map", and put it next to the Blend node towards the bottom for the Grout noise
@@ -238,6 +253,8 @@ Here's what the final product will look like, with bump, normal, and glossiness 
     - Connect it to the *Gradient Map* node for the brick noise texture
 
     ![1522953005345](1522953005345.png)
+
+    ​
 
 
 
@@ -264,6 +281,8 @@ Here's what the final product will look like, with bump, normal, and glossiness 
     - Connect the node to the *Normal* output node
 
     ![1522953532830](1522953532830.png)
+
+    ​
 
 
 
