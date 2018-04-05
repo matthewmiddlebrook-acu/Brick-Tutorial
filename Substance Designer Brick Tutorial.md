@@ -2,7 +2,7 @@
 
 Here's what the final product will look like, with bump, normal, and glossiness maps. This is a 21 step tutorial.
 
-![1522934693342](G:\My Drive\3D Modeling\Tutorial\1522934693342.png)
+![1522934693342](1522934693342.png)
 
 
 
@@ -15,7 +15,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
      - **Beve**l X and Y: 0.4
      - **Round Corners**: 0.75
 
-   ![1522948846065](G:\My Drive\3D Modeling\Tutorial\1522948846065.png)
+   ![1522948846065](1522948846065.png)
 
    ​
 
@@ -27,7 +27,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
      - **Anisotropy**: 0.0
    - Connect the  **right** node of the *Brick Generator* to the **left** node of the *Anisotropic Blur Grayscale* to link them
 
-   ![1522948913981](G:\My Drive\3D Modeling\Tutorial\1522948913981.png)
+   ![1522948913981](1522948913981.png)
 
    ​
 
@@ -36,7 +36,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
 
    - Connect the node to the Anisotropic Blur Grayscale node
 
-   ![1522949574594](G:\My Drive\3D Modeling\Tutorial\1522949574594.png)
+   ![1522949574594](1522949574594.png)
 
    ​
 
@@ -44,7 +44,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
 
    - Connect the node to the *Flood Fill* node
 
-   ![1522949001882](G:\My Drive\3D Modeling\Tutorial\1522949001882.png)
+   ![1522949001882](1522949001882.png)
 
    ​
 
@@ -57,7 +57,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
        - \#fffddfb3
    - Connect the node to the *Flood Fill to Random Grayscale* node
 
-   ![1522949150987](G:\My Drive\3D Modeling\Tutorial\1522949150987.png)
+   ![1522949150987](1522949150987.png)
 
 
 
@@ -68,7 +68,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
      - **Anisotropy**: 0.5
    - Connect the node to the *Gradient Map* node
 
-   ![1522949357912](G:\My Drive\3D Modeling\Tutorial\1522949357912.png)
+   ![1522949357912](1522949357912.png)
 
 
 
@@ -82,9 +82,9 @@ Here's what the final product will look like, with bump, normal, and glossiness 
      - **Angle Random**: 0.05
    - We are going to start a new node link connection, so this node will not be connected to anything.
 
-   ![1522949833248](G:\My Drive\3D Modeling\Tutorial\1522949833248.png)
+   ![1522949833248](1522949833248.png)
 
-![1522949802200](G:\My Drive\3D Modeling\Tutorial\1522949802200.png)		
+![1522949802200](1522949802200.png)		
 
 8. Search for "Gradient Map", or select the other Gradient map we created earlier and duplicate it with Ctrl-D
 
@@ -99,7 +99,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
        - \#ffffffff
    - Connect the node to the *Directional Noise 2* node
 
-   ![1522950133835](G:\My Drive\3D Modeling\Tutorial\1522950133835.png)
+   ![1522950133835](1522950133835.png)
 
    ​
 
@@ -110,7 +110,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
    - Connect the **middle** (Background) node to the *Gradient Map* node
    - Connect the **top** (Foreground) node to the *Anisotropic Blur Grayscale* node (second node connected to the Brick Generator)
 
-   ![1522950223606](G:\My Drive\3D Modeling\Tutorial\1522950223606.png)
+   ![1522950223606](1522950223606.png)
 
 
 
@@ -123,7 +123,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
       - **Color Mode**: Color
     - Connect the node to the *Blend* node
 
-    ![1522950588468](G:\My Drive\3D Modeling\Tutorial\1522950588468.png)
+    ![1522950588468](1522950588468.png)
 
 
 
@@ -136,9 +136,9 @@ Here's what the final product will look like, with bump, normal, and glossiness 
     - Connect the **middle** (Background) node to the *Gradient Map* node (for the brick texture)
     - Connect the **top** (Foreground) node to the *Anisotropic Blur * node (for the brick color)
 
-    ![1522950687252](G:\My Drive\3D Modeling\Tutorial\1522950687252.png)
+    ![1522950687252](1522950687252.png)
 
-    ![1522952124564](G:\My Drive\3D Modeling\Tutorial\1522952124564.png)
+    ![1522952124564](1522952124564.png)
 
 
 
@@ -148,7 +148,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
 
     - Connect the node to the *Anisotropic Blur Grayscale* node
 
-    ![1522950858352](G:\My Drive\3D Modeling\Tutorial\1522950858352.png)
+    ![1522950858352](1522950858352.png)
 
 
 
@@ -158,7 +158,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
       - **Scale**: 8
       - **Disorder**: 1
 
-    ![1522951022192](G:\My Drive\3D Modeling\Tutorial\1522951022192.png)
+    ![1522951022192](1522951022192.png)
 
 
 
@@ -172,7 +172,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
         - \#ffffffff
     - Connect the node to the *Moisture Noise* node
 
-    ![1522951144838](G:\My Drive\3D Modeling\Tutorial\1522951144838.png)
+    ![1522951144838](1522951144838.png)
 
     ​
 
@@ -183,9 +183,9 @@ Here's what the final product will look like, with bump, normal, and glossiness 
     - Connect the **top** (Foreground) node to the *Invert Grayscale* node
     - Connect the **middle** (Background) node to the *Gradient Map* node
 
-    ![1522951264503](G:\My Drive\3D Modeling\Tutorial\1522951264503.png)
+    ![1522951264503](1522951264503.png)
 
-    ![1522951309045](G:\My Drive\3D Modeling\Tutorial\1522951309045.png)
+    ![1522951309045](1522951309045.png)
 
     ​
 
@@ -203,7 +203,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
         - \#ff9e8b79
     - Connect the node to the *Blend* node for the grout below
 
-    ![1522951863854](G:\My Drive\3D Modeling\Tutorial\1522951863854.png)
+    ![1522951863854](1522951863854.png)
 
     ​
 
@@ -215,7 +215,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
     - Connect the **middle** (Background) node to the *Gradient Map* node for the Grout
     - Connect the node to the *Diffuse* output node on the right
 
-    ![1522952497580](G:\My Drive\3D Modeling\Tutorial\1522952497580.png)
+    ![1522952497580](1522952497580.png)
 
 ### Brick Glossiness
 
@@ -229,7 +229,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
         - \#ff656565
     - Connect it to the *Blend* node
 
-    ![1522952797381](G:\My Drive\3D Modeling\Tutorial\1522952797381.png)
+    ![1522952797381](1522952797381.png)
 
     ​
 
@@ -237,7 +237,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
 
     - Connect it to the *Gradient Map* node for the brick noise texture
 
-    ![1522953005345](G:\My Drive\3D Modeling\Tutorial\1522953005345.png)
+    ![1522953005345](1522953005345.png)
 
 
 
@@ -248,7 +248,7 @@ Here's what the final product will look like, with bump, normal, and glossiness 
     - Connect the **middle** (Background) node to the *Gradient Map* node
     - Connect the node to the *Glossiness* output node on the right
 
-![1522953080736](G:\My Drive\3D Modeling\Tutorial\1522953080736.png)
+![1522953080736](1522953080736.png)
 
 
 
@@ -263,10 +263,10 @@ Here's what the final product will look like, with bump, normal, and glossiness 
     - Connect the node to the *Blend* node
     - Connect the node to the *Normal* output node
 
-    ![1522953532830](G:\My Drive\3D Modeling\Tutorial\1522953532830.png)
+    ![1522953532830](1522953532830.png)
 
 
 
 ### Final Node Graph
 
-![final_nodes](G:\My Drive\3D Modeling\Tutorial\final_nodes.png)
+![final_nodes](final_nodes.png)
